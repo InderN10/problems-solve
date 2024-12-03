@@ -99,14 +99,271 @@
 // a=a*12;
 // c=a+b;
 // console.log(c)
-// prob19
-let a=16, b=14;
-if (a>b){
-    console.log()
+// // prob19
+// let a=16, b=14;
+// if (a>b){
+//     console.log(a)
+// }
+// else{
+//     console.log(b)
+// }
+// // prob20
+// let a=2, b=6, c=7;
+
+//  if (a>c && a>b){
+//     console.log(a)
+// }
+// else if(b>a && b>c){
+//     console.log(b)
+// }
+// else{
+//     console.log(c)
+// }   
+
+// // prob21
+// let a=85, b=75, c=96, d=69, f=0;
+// if (a>80){
+//     f=f+a
+// }
+// else {
+//     f=f
+// }
+// if (b>80){
+//     f=f+b
+// }
+// else{
+//     f=f
+// }
+// if (c>80){
+//     f=f+c
+// }
+// else{
+//     f=f
+// }
+// if (d>80){
+//     f=f+d
+// }
+// else{
+//     f=f
+// }
+// console.log(f)
+
+
+
+
+
+// // prob22
+// let a=3, b=8, c=5, d=4;
+// if (a<b && a<c && a<d){
+//     console.log(a)
+// }
+// else if (b<a && b<c && b<d){
+//     console.log(b)
+// }
+// else if (c<a && c<b && c<d){
+//     console.log(c)
+// }
+// else {
+//     console.log(d)
+// }
+
+
+
+
+// // prob23
+// let age=23;
+// if(age>=18){
+//     console.log('Tanii nas',age)
+//     console.log('ta nasand hursen baina.');
+// }
+// else{
+//     console.log('ta nasand hureegui bn');
+
+// }
+// // prob24test
+// let a = 3, b = 6, c = 2, d = 4, l;
+// if (a<5){
+//     a=a
+// }
+// else if (a>5){
+//     a=1
+// }
+// if (b<5){
+//     b=b
+// }
+// else if (b>5){
+//     b=1
+// }
+// if (c<5){
+//     c=c
+// }
+// else if (c>5){
+//     c=1
+// }
+// if (d<5){
+//     d=d
+// }
+// else if (d>5){
+//     d=1
+// }
+// l=a*b*c*d;
+// console.log(l)
+// // prob25
+// let a = 10, b = 3, c = 5, g;
+// if (a % 2 == 0) {
+//     a = a
+// }
+// else {
+//     a = 0
+// }
+// if (b % 2 == 0) {
+//     b = b
+// }
+// else {
+//     b = 0
+// }
+// if (c % 2 == 0) {
+//     c = c
+// }
+// else {
+//     c = 0
+// }
+// g = a + b + c
+// console.log(g);
+// // prob26
+// let a = 5, b = 2, c = 3, p;
+// if (a % 2 == 1) {
+//     a = a
+// }
+// else {
+//     a = 1
+// }
+// if (b % 2 == 1) {
+//     b = b
+// }
+// else {
+//     b = 1
+// }
+// if (c % 2 == 1) {
+//     c = c
+// }
+// else {
+//     c = 1
+// }
+// p=a*b*c;
+// console.log(p);
+// // prob27
+// let a=2, b=5, c=5, k;
+// if(a==5){
+//     a=a
+// }
+// else{
+//     a=0
+// }
+// if(b==5){
+//     b=1
+// }
+// else{
+//     b=0
+// }
+// if(c==5){
+//     c=1
+// }
+// else{
+//     c=0
+// }
+// k=a+b+c;
+// console.log(k);
+// // prob28
+// let a=3, b=12, c=8, d=9, p;
+// if(a%3==0){
+//     a=1
+// }
+// else{
+//     a=0
+// }
+// if(b%3==0){
+//     b=1
+// }
+// else{
+//     b=0
+// }
+// if(c%3==0){
+//     c=1
+// }
+// else{
+//     c=0
+// }
+// if(d%3==0){
+//     d=1
+// }
+// else{
+//     d=0
+// }
+// p=a+b+c+d;
+// console.log(p);
+// // prob29
+// let a = 7, b = 22, c = 13, d = 30, l;
+// if (a % 11 == 0) {
+//     a = 0
+// }
+// else {
+//     a = a
+// }
+// if (b % 11 == 0) {
+//     b = 0
+// }
+// else {
+//     b = b
+// }
+// if (c % 11 == 0) {
+//     c = 0
+// }
+// else {
+//     c = c
+// }
+// if (d % 11 == 0) {
+//     d = 0
+// }
+// else {
+//     d = d
+// }
+// l = a + b + c + d
+// console.log(l);
+// // prob30
+// let a = prompt("toogoo oruulna uu?");
+// if (a < 10) {
+//     console.log('No');
+// }
+// else {
+//     console.log('Yes');
+// }
+// // prob31
+// let a = prompt("toogoo oruulna uu?");
+// if (a < 5) {
+//     console.log('Yes');
+// }
+// else {
+//     console.log('No');
+// }
+// prob32
+let a=3, b=4, c=5;
+
+if(a%2==0){
+    console.log(Yes); 
 }
 else{
-    console.log(b)
+    console.log(No);
 }
-// // prob20
-// let a=1, b=3, c=2;
-// if
+if(b%2==0){
+    console.log(Yes); 
+}
+else{
+    console.log(No);
+}
+if(c%2==0){
+    console.log(Yes); 
+}
+else{
+    console.log(No);
+}
