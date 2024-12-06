@@ -346,24 +346,438 @@
 // else {
 //     console.log('No');
 // }
-// prob32
-let a=3, b=4, c=5;
+// // prob32
+// let a=3, b=4, c=5;
 
-if(a%2==0){
-    console.log(Yes); 
+// if(a%2==0){
+//     console.log("Yes"); 
+// }
+// else{
+//     console.log("No");
+// }
+// if(b%2==0){
+//     console.log("Yes"); 
+// }
+// else{
+//     console.log("No");
+// }
+// if(c%2==0){
+//     console.log("Yes"); 
+// }
+// else{
+//     console.log("No");
+// }
+
+
+
+
+
+
+
+
+// // newprob1
+// let a=prompt("Toogoo oruulns uu?");
+// if(a%2==0){
+// console.log(a, "Tegsh too")
+// }
+// else if(a%2==1){
+//     console.log(a, "Sondgoi too")
+// }
+
+
+
+
+// // newprob2
+// let a=prompt("add number");
+// if(a<0){
+//     console.log("sorog too");
+
+// }
+// else if(a>0){
+//     console.log("tegsh too");
+
+// }
+// else if(a=0){
+//     console.log(a, "teg");
+
+// }
+
+
+
+
+
+// // newprob3
+// let a=prompt("Huvaagdagch oruulna uu?");
+// b=prompt("Huvaagch oruulna uu?")
+// if(a%b==0){
+//     console.log("Huvaagdana");
+
+// }
+// else if(a%b>0){
+//     console.log("Huvaagdahgui");
+
+// }
+
+
+
+
+
+// // newprob4
+// let a="IOI"
+// console.log(a);
+
+
+
+// // newprob4
+// let n=prompt("wouery iwgf");
+// for(let i=0; i<n; i++){
+//     console.log("ioi"); 
+// }
+
+
+
+// // newprob4
+// let a=[1, 2, 20, 4, 5];
+// let s=0,i;
+// for (i = 0; i<a.length; i++ ){
+//     s=s+a[i];
+// }
+// console.log(s);
+
+
+
+
+
+
+// // probleme5
+// let a = prompt("add number");
+// let p = 1, r;
+// for (r = 1; r <=a;  r++ ) {
+// p=p*r
+// }
+// console.log(p);
+
+
+
+
+// // prob6
+// let a=100;
+// let b=prompt("dahin urjuulhee oruul");
+// let c=0
+// for(let i=1; i<=b; i++ ){
+//     c=c+a
+// }
+// console.log(c);
+
+
+
+
+
+
+// // prob7
+// let a = 50;
+// let b = prompt("heden udaa nemeh");
+// let m = 0;
+// for (let e = 0; e < b; e++) {
+//     m = m + a;
+// }
+// console.log(m);
+
+
+
+
+
+
+// // prob8
+// let a=5;
+// let b=prompt("zereg");
+// let c=1;
+// for(let i=0; i<b; i++){
+//     c=c*a
+// }
+// console.log(c);
+
+
+
+
+
+
+
+
+// // prob9
+// let a=prompt("too");
+// let b=prompt("zereg");
+// let c=1;
+// for(let i=0; i<b; i++){
+//     c=c*a
+// }
+// console.log(c);
+
+
+
+
+
+
+// // prob10
+
+// let b = prompt("avsan onoo");
+
+
+
+// if(b>5 || b<2){
+//     console.log("dun buruu bn")
+// }else{
+//     if(b>=3){
+//         console.log("tentssen");
+//     } else {
+//         console.log("unasan");
+//     }
+
+// }
+
+
+
+
+
+
+
+
+// // prob11
+// let a=2, b=3, c=4, d=5;
+// let p=prompt("avsan dun")
+
+//     if(p>1 && p<3){
+//         console.log("muu")
+//     }
+
+//     else if(p>2 && p<4){
+//         console.log("dund")
+//     }
+//     else if(p>3 && p<5){
+//         console.log("sain")
+//     }
+//      else if (p>4 && p<6){
+//         console.log("onts")
+//     }
+
+
+
+
+
+
+
+// // prob12
+// let b = prompt("avsan onoo");
+// if (b < 0 || b > 100) {
+//     console.log("zov onoo oruulna uu?");
+
+// }
+// else {
+//     if (b >= 0 && b < 59) {
+//         console.log("F");
+
+//     } else if (b >= 60 && b < 69) {
+//         console.log("D");
+
+//     } else if (b >= 70 && b < 79) {
+//         console.log("C");
+
+//     } else if (b >= 80 && b < 89) {
+//         console.log("B");
+
+//     } else if (b >= 90 && b <= 100) {
+//         console.log("A");
+
+//     }
+// }
+
+
+
+
+
+
+// // prob13
+// let b=prompt("Odor oo oruulna uu")
+// if (b < 0 || b > 7){
+// console.log("zovo odor oruulna uu");
+
+// } else{
+//     if(b==1){
+//         console.log("Monday");
+
+//     } else if(b==2){
+//         console.log("Tuesday");
+
+//     } else if(b==3){
+//         console.log("Wednesday");
+
+//     } else if(b==4){
+//         console.log("Thursday");
+
+//     } else if(b==5){
+//         console.log("Friday");
+
+//     } else if(b==6){
+//         console.log("Saturday");
+
+//     } else if(b==7){
+//         console.log("Sunday");
+
+//     }
+// }
+
+
+
+
+
+
+
+// // prob14
+// let month = Number(prompt("saraa oruul"))
+// if (month === 1 || month === 2 || month === 3) {
+//     console.log('Winter')
+// } else if (month === 4 || month === 5 || month === 6) {
+//     console.log('Spring')
+// } if (month === 7 || month === 8 || month === 9) {
+//     console.log('Summer')
+// } if (month === 10 || month === 11 || month === 12) {
+//     console.log('Autumn')
+// }
+
+
+
+// //test
+// switch (month) {
+//     case 1:
+//         console.log(1)
+
+//     case 2:
+//         console.log(2)
+
+//     case 3:
+//         console.log("Winer");
+//         break;
+
+//     default:
+//         console.log("zov saraa oruul");
+
+//         break;
+// }
+
+
+
+
+
+
+
+// // prob
+// let a = 3
+// let b = 4
+// let c = 5
+// if (a + b > c && c + b > a && a + c > b) {
+//     console.log("YES");
+
+// } else  {
+//     console.log("NO");
+
+// }
+
+
+
+
+
+
+
+
+// // wrongg
+// let b=prompt("toogoo oruulna uu");
+// let r;
+// r=b*1
+// console.log(r)
+// r=b*2
+// console.log(r)
+// r=b*3
+// console.log(r)
+// r=b*4
+// console.log(r)
+// r=b*5
+// console.log(r)
+// r=b*6
+// console.log(r)
+// r=b*7
+// console.log(r)
+// r=b*8
+// console.log(r)
+// r=b*9
+// console.log(r)
+// r=b*10
+// console.log(r)
+
+
+
+
+// // correct iss
+// let a=3;
+// let n=10;
+// let s=0;
+// for(let i=1; i<=n; i++){
+//     s=a*i
+//     console.log(a+"*"+i+"="+s);
+    
+// }
+
+
+
+
+
+
+
+// // problemmmmmm
+// let b=3
+// let s=1
+// const a=5;
+// for(let i=1; i<=a; i++){
+//     s=s*b;
+//     console.log(3 + '^' + i + '=' + s);
+// }
+
+
+
+
+
+
+// // probleee
+// let a=2, b=3, c=4, q;
+// q=a*b-c;
+// console.log(q);
+
+
+
+
+
+
+// // probbb
+// let b=3;
+// let count=0;
+// let a=[2, 3, 4, 5, 3]
+// for(let i=0 ; i<a.length ; i++){
+//     if(a[i]==b){
+//         count+=1
+//     }
+// }
+// console.log(count);
+
+
+
+
+
+
+// probb  HIEH
+let a=[40, 50, 92, 50, 40];
+let b;
+for(let names=1; names<=a.length; names++){
+    console.log(a[names]);
 }
-else{
-    console.log(No);
-}
-if(b%2==0){
-    console.log(Yes); 
-}
-else{
-    console.log(No);
-}
-if(c%2==0){
-    console.log(Yes); 
-}
-else{
-    console.log(No);
-}
+a[1]
+
+ 
