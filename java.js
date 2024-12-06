@@ -723,7 +723,7 @@
 // for(let i=1; i<=n; i++){
 //     s=a*i
 //     console.log(a+"*"+i+"="+s);
-    
+
 // }
 
 
@@ -773,11 +773,30 @@
 
 
 // probb  HIEH
-let a=[40, 50, 92, 50, 40];
-let b;
-for(let names=1; names<=a.length; names++){
-    console.log(a[names]);
+let dun = [];
+let ind = [];
+let inx, i, j, k;
+let n = prompt("heden suragch bga ve?");
+for (i = 0; i < n; i++) {
+    dun.push(parseInt(prompt("avsan dun oruul")));
 }
-a[1]
+for (i = 0; i < n ; i++) {
+    ind.push(i + 1);
+}
+for (i = 0; i < n; i++) {
+    for (j = 0; j < n - 1 - i; j++) {
+        if (dun[j] < dun[j + 1]) {
+            let temp = dun[j];
+            dun[j] = dun[j + 1];
+            dun[j + 1] = temp;
 
- 
+            let tempInd = ind[j];
+            ind[j] = ind[j + 1];
+            ind[j + 1] = tempInd;
+        }
+    }
+}
+for (i = 0; i < n; i++) {
+    console.log(ind[i]);
+
+}
