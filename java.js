@@ -84,20 +84,19 @@ function dayTOhour(a) {
     c = a % 24;
     return `${b} ${c}`
 }
+function dayhourTOhour(a, b) {
+    a = 2 * 24;
+    c = a + b;
+    return c;
+}
+function sarTOjil(a) {
+    c = parseInt(a / 12);
+    b = a - parseInt(c * 12);
+    return `${c} ${b}`
+}
 
 
 
-// // prob16
-// let a=2, b=5, c;
-// a=2*24;
-// c=a+b;
-// console.log(c)
-// // prob17
-// let a=27, c, b;
-// c=parseInt(a/12);
-// b=27-parseInt(c*12)
-// console.log(c)
-// console.log(b)
 // // prob18
 // let a=2, b=7, c;
 // a=a*12;
