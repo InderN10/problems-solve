@@ -1,88 +1,92 @@
-// // prob1
-// let e=3, r=4, t=5;
-// let s=e+r+t
-// console.log(s)
-// // prob2
-// let a=12, b=23;
-// f=a+b
-// console.log(f)
-// // prob3
-// let v=5
-// h=v*v*v
-// g=(v*v)*6
-// console.log(h)
-// console.log(g)
-// // prob4
-// let p=6, l=4 
-// b=p*l
-// k=(p+l)*2
-// console.log(b)
-// console.log(k)
-// // prob5
-// let x = 1 ;
-// let y = 3*x-5;
-// console.log(y)
-// prob6
-// let x = -2;
-// let y = 4*(x*x)-(3*x)+5;
-// console.log(y)
-// // prob7
-// let n=476, a;
-// a=n%10;
-// console.log(a)
-// // prob8
-// let n=423, a;
-//  n=n%100;
-//  a=n/10;
+function niilber(too1, too2, too3) {
+    a = too1 + too2 + too3;
+    return a;
+}
 
-//   console.log(parseInt(a));
-// // prob9
-// let a = 27, f, b, p;
-// f = a % 10;
-// b = a / 10;
-// p = f * parseInt(b)
-// console.log(f)
-// console.log(parseInt(b))
-// console.log(p)
-// // prob10
-// let a=123, b, c, p, o, h;
-// b=parseInt(a/100);
-// o=a/10;
-// c=parseInt(o)%10;
-// p=a%10;
-// h=b+c+p
-// console.log(h)
-// // prob11
-// let a=200, b, c;
-// b=parseInt(a/60);
-// c=a%60
-// console.log(b)
-// console.log(c)
-// // prob12
-// let a=3612, b, c, n;
-// b=parseInt(a/3600);
-// c=parseInt(a/60);
-// n=a%60;
-// console.log(b)
-// console.log(c)
-// console.log(n)
-// // prob13
-// let a=3, b=4, c, u;
-// c=a*60;
-// u=c+b;
-// console.log(u)
-// // prob14
-// let a=1, b=2, c=3, p;
-// a=a*3600;
-// b=b*60;
-// p=a+b+c
-// console.log(p)
-// // prob15
-// let a=44, b, c;
-// b=parseInt(a/24);
-// c=a%24;
-// console.log(b)
-// console.log(c)
+function niilber2(too1, too2,) {
+    a = too1 + too2;
+    return a;
+}
+
+function cubeV(tal) {
+    a = tal * tal * tal;
+    return a;
+}
+function cubeGUITSET(tal) {
+    a = (tal * tal) * 6;
+    return a;
+}
+
+function olohTALBAI(tal1, tal2) {
+    s = tal1 * tal2;
+    return s;
+}
+function premetr(tal1, tal2) {
+    p = (tal1 + tal2) * 2;
+    return p;
+}
+function funkts1(x) {
+    a = 3 * x - 5;
+    return a;
+}
+function funkts2(x) {
+    a = 4 * (x * x) - (3 * x) + 5;
+    return a;
+}
+function suulinORON(n) {
+    a = n % 10;
+    return a;
+}
+function goliinORON(n) {
+    n = n % 100;
+    a = n / 10;
+    return parseInt(a);
+}
+function tsiiferURJVER(a) {
+    f = a % 10;
+    b = a / 10;
+    p = f * parseInt(b)
+    return p
+}
+function tsiiferNIILBER(a) {
+    b = parseInt(a / 100);
+    o = a / 10;
+    c = parseInt(o) % 10;
+    p = a % 10;
+    h = b + c + p;
+    return h;
+}
+function secTOmin(a) {
+    b = parseInt(a / 60);
+    c = a % 60
+    return `${b} ${c}`
+}
+
+function secTOhour(a) {
+    b = parseInt(a / 3600);
+    c = parseInt(a / 60);
+    n = a % 60;
+    return `${b} ${c} ${n}`
+}
+function minsecTOsec(a, b) {
+    c = a * 60;
+    u = c + b;
+    return u;
+}
+function hourminsecTOsec(a, b, c) {
+    a = a * 3600;
+    b = b * 60;
+    p = a + b + c;
+    return p;
+}
+function dayTOhour(a) {
+    b = parseInt(a / 24);
+    c = a % 24;
+    return `${b} ${c}`
+}
+
+
+
 // // prob16
 // let a=2, b=5, c;
 // a=2*24;
@@ -772,31 +776,36 @@
 
 
 
-// probb  HIEH
-let dun = [];
-let ind = [];
-let inx, i, j, k;
-let n = prompt("heden suragch bga ve?");
-for (i = 0; i < n; i++) {
-    dun.push(parseInt(prompt("avsan dun oruul")));
-}
-for (i = 0; i < n ; i++) {
-    ind.push(i + 1);
-}
-for (i = 0; i < n; i++) {
-    for (j = 0; j < n - 1 - i; j++) {
-        if (dun[j] < dun[j + 1]) {
-            let temp = dun[j];
-            dun[j] = dun[j + 1];
-            dun[j + 1] = temp;
+// // probb  HIEH
+// let dun = [];
+// let ind = [];
+// let inx, i, j, k;
+// let n = prompt("heden suragch bga ve?");
+// for (i = 0; i < n; i++) {
+//     dun.push(parseInt(prompt("avsan dun oruul")));
+// }
+// for (i = 0; i < n ; i++) {
+//     ind.push(i + 1);
+// }
+// for (i = 0; i < n; i++) {
+//     for (j = 0; j < n - 1 - i; j++) {
+//         if (dun[j] < dun[j + 1]) {
+//             let temp = dun[j];
+//             dun[j] = dun[j + 1];
+//             dun[j + 1] = temp;
 
-            let tempInd = ind[j];
-            ind[j] = ind[j + 1];
-            ind[j + 1] = tempInd;
-        }
-    }
-}
-for (i = 0; i < n; i++) {
-    console.log(ind[i]);
+//             let tempInd = ind[j];
+//             ind[j] = ind[j + 1];
+//             ind[j + 1] = tempInd;
+//         }
+//     }
+// }
+// for (i = 0; i < n; i++) {
+//     console.log(ind[i]);
 
-}
+// }
+
+
+
+
+// probbp
