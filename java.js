@@ -94,189 +94,177 @@ function sarTOjil(a) {
     b = a - parseInt(c * 12);
     return `${c} ${b}`
 }
+function jilsarTOsar(a, b) {
+    a = a * 12;
+    c = a + b;
+    return c;
+}
+function ihBaga(a, b) {
+    if (a > b) {
+        return a;
+    }
+    else {
+        return b;
+    }
+}
+function ihBaga3too(a, b, c) {
+    if (a > c && a > b) {
+        return a;
+    }
+    else if (b > a && b > c) {
+        return b;
+    }
+    else {
+        return c;
+    }
+}
+function niilber80(a, b, c, d, f) {
+    if (a > 80) {
+        f = f + a
+
+    }
+    else {
+        f = f
+
+    }
+    if (b > 80) {
+        f = f + b
+
+    }
+    else {
+        f = f
+
+    }
+    if (c > 80) {
+        f = f + c
+
+    }
+    else {
+        f = f
+
+    }
+    if (d > 80) {
+        f = f + d
+
+    }
+    else {
+        f = f
+
+    }
+    return f;
+}
+function ihBaga4too(a, b, c, d) {
+    if (a < b && a < c && a < d) {
+        return a;
+    }
+    else if (b < a && b < c && b < d) {
+        return b;
+    }
+    else if (c < a && c < b && c < d) {
+        return c;
+    }
+    else {
+        return d;
+    }
+}
+function nasansHURSENugui(a) {
+    if (a >= 18) {
+        return `${'Tanii nas'} ${a} ${'ta nasand hursen baina.'}`
+    }
+    else {
+        return `${'ta nasand hureegui bn'}`
+    }
+}
+function urjver5(a, b, c, d) {
+    if (a < 5) {
+        a = a
+    }
+    else if (a > 5) {
+        a = 1
+    }
+    if (b < 5) {
+        b = b
+    }
+    else if (b > 5) {
+        b = 1
+    }
+    if (c < 5) {
+        c = c
+    }
+    else if (c > 5) {
+        c = 1
+    }
+    if (d < 5) {
+        d = d
+    }
+    else if (d > 5) {
+        d = 1
+    }
+    l = a * b * c * d;
+    return l;
+}
+function tegsh3tooNIILBER(a, b, c) {
+    if (a % 2 == 0) {
+        a = a
+    }
+    else {
+        a = 0
+    }
+    if (b % 2 == 0) {
+        b = b
+    }
+    else {
+        b = 0
+    }
+    if (c % 2 == 0) {
+        c = c
+    }
+    else {
+        c = 0
+    }
+    g = a + b + c;
+    return g;
+}
+function sondgoi3tooURJVER(a,b,c){
+    if (a % 2 == 1) {
+        a = a
+    }
+    else {
+        a = 1
+    }
+    if (b % 2 == 1) {
+        b = b
+    }
+    else {
+        b = 1
+    }
+    if (c % 2 == 1) {
+        c = c
+    }
+    else {
+        c = 1
+    }
+    p=a*b*c;
+    return p;
+}
+function Tnumber(a,b,c){
+    let p=0;
+    if(a==5){
+        p++
+    }
+    
+    if(b==5){
+        p++
+    }
+    
+    if(c==5){
+        p++
+    }
+
+    return p; 
+}
 
 
-
-// // prob18
-// let a=2, b=7, c;
-// a=a*12;
-// c=a+b;
-// console.log(c)
-// // prob19
-// let a=16, b=14;
-// if (a>b){
-//     console.log(a)
-// }
-// else{
-//     console.log(b)
-// }
-// // prob20
-// let a=2, b=6, c=7;
-
-//  if (a>c && a>b){
-//     console.log(a)
-// }
-// else if(b>a && b>c){
-//     console.log(b)
-// }
-// else{
-//     console.log(c)
-// }   
-
-// // prob21
-// let a=85, b=75, c=96, d=69, f=0;
-// if (a>80){
-//     f=f+a
-// }
-// else {
-//     f=f
-// }
-// if (b>80){
-//     f=f+b
-// }
-// else{
-//     f=f
-// }
-// if (c>80){
-//     f=f+c
-// }
-// else{
-//     f=f
-// }
-// if (d>80){
-//     f=f+d
-// }
-// else{
-//     f=f
-// }
-// console.log(f)
-
-
-
-
-
-// // prob22
-// let a=3, b=8, c=5, d=4;
-// if (a<b && a<c && a<d){
-//     console.log(a)
-// }
-// else if (b<a && b<c && b<d){
-//     console.log(b)
-// }
-// else if (c<a && c<b && c<d){
-//     console.log(c)
-// }
-// else {
-//     console.log(d)
-// }
-
-
-
-
-// // prob23
-// let age=23;
-// if(age>=18){
-//     console.log('Tanii nas',age)
-//     console.log('ta nasand hursen baina.');
-// }
-// else{
-//     console.log('ta nasand hureegui bn');
-
-// }
-// // prob24test
-// let a = 3, b = 6, c = 2, d = 4, l;
-// if (a<5){
-//     a=a
-// }
-// else if (a>5){
-//     a=1
-// }
-// if (b<5){
-//     b=b
-// }
-// else if (b>5){
-//     b=1
-// }
-// if (c<5){
-//     c=c
-// }
-// else if (c>5){
-//     c=1
-// }
-// if (d<5){
-//     d=d
-// }
-// else if (d>5){
-//     d=1
-// }
-// l=a*b*c*d;
-// console.log(l)
-// // prob25
-// let a = 10, b = 3, c = 5, g;
-// if (a % 2 == 0) {
-//     a = a
-// }
-// else {
-//     a = 0
-// }
-// if (b % 2 == 0) {
-//     b = b
-// }
-// else {
-//     b = 0
-// }
-// if (c % 2 == 0) {
-//     c = c
-// }
-// else {
-//     c = 0
-// }
-// g = a + b + c
-// console.log(g);
-// // prob26
-// let a = 5, b = 2, c = 3, p;
-// if (a % 2 == 1) {
-//     a = a
-// }
-// else {
-//     a = 1
-// }
-// if (b % 2 == 1) {
-//     b = b
-// }
-// else {
-//     b = 1
-// }
-// if (c % 2 == 1) {
-//     c = c
-// }
-// else {
-//     c = 1
-// }
-// p=a*b*c;
-// console.log(p);
-// // prob27
-// let a=2, b=5, c=5, k;
-// if(a==5){
-//     a=a
-// }
-// else{
-//     a=0
-// }
-// if(b==5){
-//     b=1
-// }
-// else{
-//     b=0
-// }
-// if(c==5){
-//     c=1
-// }
-// else{
-//     c=0
-// }
-// k=a+b+c;
-// console.log(k);
 // // prob28
 // let a=3, b=12, c=8, d=9, p;
 // if(a%3==0){
