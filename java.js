@@ -225,7 +225,7 @@ function tegsh3tooNIILBER(a, b, c) {
     g = a + b + c;
     return g;
 }
-function sondgoi3tooURJVER(a,b,c){
+function sondgoi3tooURJVER(a, b, c) {
     if (a % 2 == 1) {
         a = a
     }
@@ -244,24 +244,28 @@ function sondgoi3tooURJVER(a,b,c){
     else {
         c = 1
     }
-    p=a*b*c;
+    p = a * b * c;
     return p;
 }
-function Tnumber(a,b,c){
-    let p=0;
-    if(a==5){
-        p++
-    }
-    
-    if(b==5){
-        p++
-    }
-    
-    if(c==5){
+function Tnumber(a, b, c) {
+    let p = 0;
+    if (a == 5) {
         p++
     }
 
-    return p; 
+    if (b == 5) {
+        p++
+    }
+
+    if (c == 5) {
+        p++
+    }
+    return p;
+}
+function getEven(array){
+
+    let even=array.filter(n=>n%2==0);
+   return even;
 }
 
 
@@ -293,6 +297,10 @@ function Tnumber(a,b,c){
 // }
 // p=a+b+c+d;
 // console.log(p);
+
+
+
+
 // // prob29
 // let a = 7, b = 22, c = 13, d = 30, l;
 // if (a % 11 == 0) {
@@ -455,7 +463,7 @@ function Tnumber(a,b,c){
 // let a=100;
 // let b=prompt("dahin urjuulhee oruul");
 // let c=0
-// for(let i=1; i<=b; i++ ){
+// for(let i=1; i<=b.; i++ ){
 //     c=c+a
 // }
 // console.log(c);
@@ -796,3 +804,10 @@ function Tnumber(a,b,c){
 
 
 // probbp
+
+let poll=[7,2,4,8,3];
+for (let i=0; i<poll.length; i++){
+    let gay=poll[0]+poll[i];
+    console.log(gay);
+}
+    
